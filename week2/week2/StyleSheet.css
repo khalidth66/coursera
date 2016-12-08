@@ -1,0 +1,187 @@
+﻿
+
+/***************************  basic  *********************************/
+
+*{
+    box-sizing:border-box;
+}
+
+.hourmenu {
+text-align:center;
+
+}
+
+
+section {
+    
+    border: solid 1px black;
+    background-color:lightgray;
+    margin:1.5%;
+    padding:0px 0px 20px 20px;
+    height:auto;
+    width:30%;
+    float:left;
+}
+
+.subject{
+    background-color:lightcoral;
+    border: solid 1px black;
+    width:33%;
+    text-align:center;
+    float:right;
+    margin:0px;
+    padding:5px;
+    
+}
+
+.pcler{
+    margin:5px;
+    clear:both;
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .sec1{
+        width:47%;
+        float:left;
+    }
+    .sec2{
+        width:47%;
+        
+    }
+    .sec3{
+        
+        margin:auto;
+        width:100%;
+        clear:both;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    section{
+        margin:10px;
+        width:100%;
+        clear:right;
+    }
+
+}
+/*
+@media(min-width: 768px) and (max-width: 991px){
+    .sec1{
+        width:50%;
+    }
+    .sec2{
+        width:50%;
+    }
+    .sec3{
+        width:100%;
+        
+    }
+}
+ @media(min-width: 992px){
+    .sec1{
+        position:relative;
+        width:100%;
+        margin:auto;
+    }
+    .sec2{
+        position:relative;
+        width:100%;
+    }
+    .sec3{
+        position:relative;
+        width:100%;
+        
+    }
+ }
+/*
+.hourmenu {
+text-align:center;
+font-size:large;
+}
+body{
+    position:relative;
+    background-color:aquamarine;
+}
+
+
+section {
+
+    border: solid 1px black;
+    background-color:gray;
+    margin:1.5%;
+    top:40px;
+    padding:10px;
+    height:auto;
+    
+}
+
+
+#chid{
+    background-color:lavender;
+        border: solid 1px black;
+    width:33%;
+    text-align:center;
+}
+#beid{
+    background-color:lightcoral;
+        border: solid 1px black;
+    width:33%;
+    text-align:center;
+}
+#suid{
+    background-color:lightpink;
+        border: solid 1px black;
+    width:33%;
+    text-align:center;
+}
+.sec1{
+    position:absolute;
+    top:20%;
+    left:1%;
+    width:30%;
+}
+
+.sec2{
+    position:absolute;
+    top:20%;
+    right:33%;
+    width:30%;
+}
+.sec3{
+    position:absolute;
+    top:20%;
+    right:1%;
+    width:30%;
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    .sec1{
+        width:50%;
+    }
+    .sec2{
+        width:50%;
+    }
+    .sec3{
+        width:100%;
+        top:auto;
+    }
+}
+ @media(max-width: 767px){
+    .sec1{
+        position:relative;
+        width:100%;
+        margin:auto;
+    }
+    .sec2{
+        position:relative;
+        width:100%;
+    }
+    .sec3{
+        position:relative;
+        width:100%;
+        
+    }
+ }
+    */
